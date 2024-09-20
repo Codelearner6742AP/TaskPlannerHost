@@ -1,4 +1,4 @@
-# TodoListToHost
+# TaskPlanner
 
 ## Overview
 TodoListToHost is a simple and efficient task management application built with React. It allows users to add, edit, delete, and mark tasks as completed. The application also supports local storage to persist tasks between sessions.
