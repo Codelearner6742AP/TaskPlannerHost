@@ -1,12 +1,32 @@
-<<<<<<< HEAD
 # TodoListToHost
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+TodoListToHost is a simple and efficient task management application built with React. It allows users to add, edit, delete, and mark tasks as completed. The application also supports local storage to persist tasks between sessions.
 
-Currently, two official plugins are available:
+## Features
+- **Add Todos**: Users can add new tasks to their todo list.
+- **Edit Todos**: Users can edit existing tasks.
+- **Delete Todos**: Users can delete tasks from their list.
+- **Mark as Completed**: Users can mark tasks as completed or uncompleted.
+- **Toggle Visibility**: Users can toggle the visibility of completed tasks.
+- **Local Storage**: Tasks are saved in the browser's local storage, so they persist between sessions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 3df2fc2 (Initial commit of ToDo List project)
+## Tech Stack
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
+- **UUID**: A library to generate unique IDs for tasks.
+- **React Icons**: A library for including popular icons in React projects.
+
+## Project Structure
+src/ ├── components/ │ 
+        └── Navbar.jsx ├── App.jsx 
+     ├── main.jsx 
+.gitignore 
+package.json 
+README.md 
+vite.config.js
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/TodoListToHost.git
